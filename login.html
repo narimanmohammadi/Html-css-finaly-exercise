@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A confectionery store are stores that sell confectionery and the intended market is usually children">
+    <meta name="keywords" content="APPLE CAKE,Brioche,Pancake,Tart,Frappé">
+    <meta name="author" content="nariman mohammadi">
+    <meta name="robots" content="index,follow">
+    <title>Log In</title>
+    <link rel="stylesheet" href="../Exercise_Frontend_Master_HTML_CSS_Nariman mohammadi/css/login.css">
+    <link rel="stylesheet" href="../Exercise_Frontend_Master_HTML_CSS_Nariman mohammadi/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="icon" href="./icon/1411940.png">
+</head>
+<body>
+    <header class="main">
+        <div>
+            <div>
+                <i class="fa-solid fa-earth-americas">&nbsp;&nbsp;language</i>
+                <a href="">EN</a>
+                <a href="">ES</a>
+                <a href="">IT</a>
+                <i class="fa-brands fa-instagram"></i>
+                <a href="">INSTAGRAM</a>
+                <i class="fa-solid fa-user"></i>
+                <a href="./login.html">Log In</a>
+            </div>
+            <div>
+                <img src="./image/happy-hour.png" alt="">
+                <a href="">HAPPY HOUR</a>
+                <img src="./image/food-delivery.png" alt="">
+                <a href="">FOOD DELIVERY</a>
+            </div>
+            <!-- sideBar -->
+            <div>
+                <input type="checkbox" name="" id="chk-2">
+                <div class="label">
+                    <label for="chk-2"><i class="fas fa-angle-double-left"></i></label>
+                </div>
+                <div class="menu">
+                    <div class="menu-1">
+                        <a href="./home.html">HOME</a>
+                    </div>
+                    <div class="menu-1">
+                        <a href="./products.html">PRODUCTS</a>
+                    </div>
+                    <div class="menu-1">
+                        <a href="">RESERVE</a>
+                    </div>
+                    <div class="menu-1">
+                        <a href="">PAGES</a>
+                    </div>
+                    <div class="menu-1">
+                        <a href="">SHOP</a>
+                    </div>
+                    <div class="menu-1">
+                        <a href="">CONTACT</a>
+                    </div>
+                    <div class="menu-1">
+                        <a href="">ABOUT</a>
+                    </div>
+                    <div class="menu-1">
+                        <a href="./login.html">Log In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <!-- nav div -->
+                <nav>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="./home.html">HOME</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="./products.html">PRODUCTS</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">RESERVE</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">PAGES</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">SHOP</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">CONTACT</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <a href="">ABOUT</a>
+                                <hr>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#"><img src="../Exercise_Frontend_Master_HTML_CSS_Nariman mohammadi/image/logo-white.png" alt="" ></a>
+                    </div>
+                </nav>
+            </div>
+            <div>
+                <input type="checkbox" id="chk" aria-hidden="true">
+
+                <!-- log in div -->
+
+                <div class="LogIn">
+                    <form action="" method="POST" id="form_login" >
+                        <div>
+                           <label for="tel"> User Name :</label>
+                        </div>
+                        <div>
+                            <input name="tel" id="tel" type="tel"  placeholder="User Name" title="شماره تماس خود را وارد کنید" maxlength="11" required>
+                            <span></span>
+                        </div>
+                        <div>
+                            <label for="pass"> Password :</label>
+                        </div>
+                        <div>
+                            <input name="pass" id="pass" type="password"   placeholder="********"  title="رمز عبور خود را وارد کنید" required >
+                            <span></span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="reminder" id="reminder" value="1">
+                            <label for="reminder">Remember</label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Log In" form="form_login">
+                        </div>
+                        <div>
+                            <label for="chk" aria-hidden="true">Sign Up</label>
+                        </div>
+                    </form>
+                    <div>
+                        <p>Or Sign Up Using</p>
+                    </div>
+                    <div>
+                        <a id="abtn" href="register.html"><i class="fa-brands fa-facebook"></i></button></a>
+                        <a id="abtn" href="register.html"><i class="fa-brands fa-twitter"></i></a>
+                        <a id="abtn" href="register.html"><i class="fa-brands fa-google"></i></button></a>
+                    </div>
+                    <div>
+                        <a href=""><b>Forget Password?</b></a>
+                    </div>
+                </div>
+
+                <!-- signup div -->
+
+                <div class="SignUp">
+                    <form action="" method="POST" id="form_register" > 
+                         <div>
+                             <label for="name">Name :</label>
+                        </div>
+                        <div>
+                            <input name="name" id="name" type="text"  placeholder="Ali" title="enter your name" required>
+                            <span></span>
+                        </div>
+                        <div>
+                             <label for="lastname">Family :</label>
+                        </div>
+                        <div>
+                            <input name="lastname" id="lastname" type="text"  placeholder="Mohammadi" title="enter your family" required>
+                            <span></span>
+                        </div>
+                        <div>
+                            <label for="tel">Phone Number :</label>
+                        </div>
+                        <div>
+                            <input  name="tel" id="tel" type="tel"  placeholder="09123456789" title="enter your phone number" maxlength="11" required>
+                            <span></span>
+                        </div>
+                    
+                        <div>
+                            <label for="tel"> Email :</label>
+                        </div>
+                        <div>
+                            <input  name="email" id="email" type="email"  placeholder="nariman_hafari88@yahoo.com" title="enter your phone email">
+                            <span></span>
+                        </div>
+                    
+                        <div>
+                            <label for="pass"> Password :</label>
+                        </div>
+                        <div>
+                            <input name="pass" id="pass" type="password"   placeholder="********"  title="enter your password" required >
+                            <span></span>
+                        </div>
+                    
+                        <div>
+                            <label for="pass"> Repeat Password :</label>
+                        </div>
+                        <div>
+                            <input name="pass" id="pass" type="password"   placeholder="********"  title="enter your password" required >
+                            <span></span>
+                        </div>
+                        <div>
+                            <input type="submit" value="Sign Up" form="form_register" for="chk">
+                        </div>
+                        <div>
+                            <label for="chk">Log In</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </header>
+<footer>
+    <div>
+        <i class="fa-solid fa-earth-americas">&nbsp;&nbsp;language</i>
+        <a href="">EN</a>
+        <a href="">ES</a>
+        <a href="">IT</a>
+        <i class="fa-brands fa-instagram"></i>
+        <a href="">INSTAGRAM</a>
+    </div>
+</footer>
+</body>
+</html>
